@@ -66,7 +66,8 @@
             Console.WriteLine("Pour conduire ton train tu as le choix entre 3 commandes : ");
             Console.WriteLine(" a : La première consiste à faire avancer ton train à vitesse normale.");
             Console.WriteLine(" b : La seconde consiste à faire avancer ton train à une plus grande vitesse.");
-            Console.WriteLine(" c : La dernière qui te permet d'afficher le gestionnaire des ressources.");
+            Console.WriteLine(" c : La troisième qui te permet d'afficher le gestionnaire des ressources.");
+            Console.WriteLine(" s : La dernière qui te permet de fermer le jeu.");
             Console.WriteLine("Que veux-tu faire ?");
         }
 
@@ -90,11 +91,15 @@
                     Console.WriteLine("Gestionnaire de l'interface de gestion des ressources");
                     UI();
                     break;
-                
+
+                case "s":
+                    Environment.Exit(0);
+                    break;
+
                 default:
                     Console.WriteLine("Tu t'es trompé de touche !");
                     Console.WriteLine("Que veux-tu faire ?");
-                    Console.WriteLine("Tu as le choix entre : a, b ou c");
+                    Console.WriteLine("Tu as le choix entre : a, b, c ou s");
                     Console.Beep();
                     Command();
                     break;
