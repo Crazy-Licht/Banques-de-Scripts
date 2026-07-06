@@ -29,7 +29,7 @@
         {
             try
             {
-                string cheminFichier = @"C:\Users\phili\Documents\GitHub\Banques-de-Scripts\Jeu_du_chameau\Jeu_du_chameau\The-Legend-of-Zelda-Spirit-Tracks-Music-Realm-Overworld.wav";
+                string cheminFichier = @"C:\Users\snake\Documents\GitHub\Banques-de-Scripts\Dossier généraux\Jeu_du_chameau\Jeu_du_chameau\The-Legend-of-Zelda-Spirit-Tracks-Music-Realm-Overworld.wav";
                 if (!System.IO.File.Exists(cheminFichier))
                 {
                     Console.WriteLine("Le fichier audio est introuvable !");
