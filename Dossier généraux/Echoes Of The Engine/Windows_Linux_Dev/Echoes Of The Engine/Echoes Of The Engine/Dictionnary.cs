@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Echoes_Of_The_Engine
 {
-    internal class Program
+    internal class Dictionnary
     {
     }
 }
